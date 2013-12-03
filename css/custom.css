@@ -1,0 +1,96 @@
+.jumbotron-ptz {
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #cccccc;
+}
+
+.jumbotron-ptz h1 {
+  line-height: 1;
+  color: inherit;
+}
+
+.jumbotron-ptz p {
+  line-height: 1.4;
+}
+
+.container .jumbotron-ptz {
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron-ptz {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron-ptz {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1 {
+    font-size: 63px;
+  }
+}
+
+#gridOuterContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+body {
+  padding-top: 60px;
+  max-width: 900px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.experienceImg {
+    width: 120px;
+}
+
+.maindiv{
+  background:#FFF;
+  position:relative;
+  overflow:hidden;
+  float:left;
+  margin:0px;
+}
+.lowerdiv{
+  width:100%;
+  background:#FFF;
+  position:absolute;
+  top:140px;
+}
+
+#games-carousel{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.item{
+  height: 234px;
+}
+.carouselImg{
+  margin-left: auto;
+  margin-right: auto;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.carousel-caption{
+  color: #000000;
+}
+.carousel-indicators {
+    bottom: 10px;
+}
+
+
+
+
+
+
+
